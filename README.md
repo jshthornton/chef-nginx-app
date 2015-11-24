@@ -1,1 +1,1 @@
-# chef-nginx-app
+# chef-nginx-site
