@@ -1,5 +1,8 @@
 DEPENDENCIES
   nginx (~> 2.7.6)
+  nginxsite
+    path: .
+    metadata: true
 
 GRAPH
   apt (2.9.2)
@@ -13,6 +16,8 @@ GRAPH
     ohai (~> 2.0)
     runit (~> 1.2)
     yum-epel (~> 0.3)
+  nginxsite (0.1.0)
+    nginx (>= 0.0.0)
   ohai (2.0.4)
   packagecloud (0.1.0)
   rsyslog (2.2.0)
